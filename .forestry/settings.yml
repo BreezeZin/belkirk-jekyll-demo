@@ -9,7 +9,6 @@ sections:
 - type: document
   path: test.html
   label: Test Document
-  match: "**/*"
 - type: heading
   label: Content
 - type: jekyll-posts
