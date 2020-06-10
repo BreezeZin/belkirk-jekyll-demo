@@ -5,6 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Test Heading
+- type: document
+  path: test.html
+  label: Test Document
+  match: "**/*"
+- type: heading
   label: Content
 - type: jekyll-posts
   label: Posts
